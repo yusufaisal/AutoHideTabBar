@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE7EDA27244D80950051134C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EDA26244D80950051134C /* AppDelegate.swift */; };
+		AE7EDA29244D80950051134C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EDA28244D80950051134C /* SceneDelegate.swift */; };
+		AE7EDA2B244D80950051134C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EDA2A244D80950051134C /* ViewController.swift */; };
+		AE7EDA2E244D80950051134C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE7EDA2C244D80950051134C /* Main.storyboard */; };
+		AE7EDA31244D80950051134C /* AutoHideTabBar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE7EDA2F244D80950051134C /* AutoHideTabBar.xcdatamodeld */; };
+		AE7EDA33244D809A0051134C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE7EDA32244D809A0051134C /* Assets.xcassets */; };
+		AE7EDA36244D809A0051134C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE7EDA34244D809A0051134C /* LaunchScreen.storyboard */; };
+		AE7EDA41244D809A0051134C /* AutoHideTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EDA40244D809A0051134C /* AutoHideTabBarTests.swift */; };
+		AE7EDA4C244D809A0051134C /* AutoHideTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EDA4B244D809A0051134C /* AutoHideTabBarUITests.swift */; };
+		AE7EDA5B244D8C110051134C /* UITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EDA5A244D8C110051134C /* UITabBarController.swift */; };
+		AE7EDA5D244D8C420051134C /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EDA5C244D8C420051134C /* UIDevice.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE7EDA3D244D809A0051134C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE7EDA1B244D80950051134C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE7EDA22244D80950051134C;
+			remoteInfo = AutoHideTabBar;
+		};
+		AE7EDA48244D809A0051134C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE7EDA1B244D80950051134C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE7EDA22244D80950051134C;
+			remoteInfo = AutoHideTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE7EDA23244D80950051134C /* AutoHideTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoHideTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE7EDA26244D80950051134C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE7EDA28244D80950051134C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AE7EDA2A244D80950051134C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE7EDA2D244D80950051134C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE7EDA30244D80950051134C /* AutoHideTabBar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AutoHideTabBar.xcdatamodel; sourceTree = "<group>"; };
+		AE7EDA32244D809A0051134C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE7EDA35244D809A0051134C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE7EDA37244D809A0051134C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE7EDA3C244D809A0051134C /* AutoHideTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoHideTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE7EDA40244D809A0051134C /* AutoHideTabBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoHideTabBarTests.swift; sourceTree = "<group>"; };
+		AE7EDA42244D809A0051134C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE7EDA47244D809A0051134C /* AutoHideTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoHideTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE7EDA4B244D809A0051134C /* AutoHideTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoHideTabBarUITests.swift; sourceTree = "<group>"; };
+		AE7EDA4D244D809A0051134C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE7EDA5A244D8C110051134C /* UITabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarController.swift; sourceTree = "<group>"; };
+		AE7EDA5C244D8C420051134C /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE7EDA20244D80950051134C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE7EDA39244D809A0051134C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE7EDA44244D809A0051134C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE7EDA1A244D80950051134C = {
+			isa = PBXGroup;
+			children = (
+				AE7EDA25244D80950051134C /* AutoHideTabBar */,
+				AE7EDA3F244D809A0051134C /* AutoHideTabBarTests */,
+				AE7EDA4A244D809A0051134C /* AutoHideTabBarUITests */,
+				AE7EDA24244D80950051134C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE7EDA24244D80950051134C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE7EDA23244D80950051134C /* AutoHideTabBar.app */,
+				AE7EDA3C244D809A0051134C /* AutoHideTabBarTests.xctest */,
+				AE7EDA47244D809A0051134C /* AutoHideTabBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE7EDA25244D80950051134C /* AutoHideTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				AE7EDA59244D8BF60051134C /* Extension */,
+				AE7EDA26244D80950051134C /* AppDelegate.swift */,
+				AE7EDA28244D80950051134C /* SceneDelegate.swift */,
+				AE7EDA2A244D80950051134C /* ViewController.swift */,
+				AE7EDA2C244D80950051134C /* Main.storyboard */,
+				AE7EDA32244D809A0051134C /* Assets.xcassets */,
+				AE7EDA34244D809A0051134C /* LaunchScreen.storyboard */,
+				AE7EDA37244D809A0051134C /* Info.plist */,
+				AE7EDA2F244D80950051134C /* AutoHideTabBar.xcdatamodeld */,
+			);
+			path = AutoHideTabBar;
+			sourceTree = "<group>";
+		};
+		AE7EDA3F244D809A0051134C /* AutoHideTabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE7EDA40244D809A0051134C /* AutoHideTabBarTests.swift */,
+				AE7EDA42244D809A0051134C /* Info.plist */,
+			);
+			path = AutoHideTabBarTests;
+			sourceTree = "<group>";
+		};
+		AE7EDA4A244D809A0051134C /* AutoHideTabBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE7EDA4B244D809A0051134C /* AutoHideTabBarUITests.swift */,
+				AE7EDA4D244D809A0051134C /* Info.plist */,
+			);
+			path = AutoHideTabBarUITests;
+			sourceTree = "<group>";
+		};
+		AE7EDA59244D8BF60051134C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AE7EDA5A244D8C110051134C /* UITabBarController.swift */,
+				AE7EDA5C244D8C420051134C /* UIDevice.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE7EDA22244D80950051134C /* AutoHideTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE7EDA50244D809A0051134C /* Build configuration list for PBXNativeTarget "AutoHideTabBar" */;
+			buildPhases = (
+				AE7EDA1F244D80950051134C /* Sources */,
+				AE7EDA20244D80950051134C /* Frameworks */,
+				AE7EDA21244D80950051134C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoHideTabBar;
+			productName = AutoHideTabBar;
+			productReference = AE7EDA23244D80950051134C /* AutoHideTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE7EDA3B244D809A0051134C /* AutoHideTabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE7EDA53244D809A0051134C /* Build configuration list for PBXNativeTarget "AutoHideTabBarTests" */;
+			buildPhases = (
+				AE7EDA38244D809A0051134C /* Sources */,
+				AE7EDA39244D809A0051134C /* Frameworks */,
+				AE7EDA3A244D809A0051134C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE7EDA3E244D809A0051134C /* PBXTargetDependency */,
+			);
+			name = AutoHideTabBarTests;
+			productName = AutoHideTabBarTests;
+			productReference = AE7EDA3C244D809A0051134C /* AutoHideTabBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE7EDA46244D809A0051134C /* AutoHideTabBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE7EDA56244D809A0051134C /* Build configuration list for PBXNativeTarget "AutoHideTabBarUITests" */;
+			buildPhases = (
+				AE7EDA43244D809A0051134C /* Sources */,
+				AE7EDA44244D809A0051134C /* Frameworks */,
+				AE7EDA45244D809A0051134C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE7EDA49244D809A0051134C /* PBXTargetDependency */,
+			);
+			name = AutoHideTabBarUITests;
+			productName = AutoHideTabBarUITests;
+			productReference = AE7EDA47244D809A0051134C /* AutoHideTabBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE7EDA1B244D80950051134C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = iSal;
+				TargetAttributes = {
+					AE7EDA22244D80950051134C = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					AE7EDA3B244D809A0051134C = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = AE7EDA22244D80950051134C;
+					};
+					AE7EDA46244D809A0051134C = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = AE7EDA22244D80950051134C;
+					};
+				};
+			};
+			buildConfigurationList = AE7EDA1E244D80950051134C /* Build configuration list for PBXProject "AutoHideTabBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE7EDA1A244D80950051134C;
+			productRefGroup = AE7EDA24244D80950051134C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE7EDA22244D80950051134C /* AutoHideTabBar */,
+				AE7EDA3B244D809A0051134C /* AutoHideTabBarTests */,
+				AE7EDA46244D809A0051134C /* AutoHideTabBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE7EDA21244D80950051134C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE7EDA36244D809A0051134C /* LaunchScreen.storyboard in Resources */,
+				AE7EDA33244D809A0051134C /* Assets.xcassets in Resources */,
+				AE7EDA2E244D80950051134C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE7EDA3A244D809A0051134C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE7EDA45244D809A0051134C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE7EDA1F244D80950051134C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE7EDA2B244D80950051134C /* ViewController.swift in Sources */,
+				AE7EDA5D244D8C420051134C /* UIDevice.swift in Sources */,
+				AE7EDA27244D80950051134C /* AppDelegate.swift in Sources */,
+				AE7EDA5B244D8C110051134C /* UITabBarController.swift in Sources */,
+				AE7EDA31244D80950051134C /* AutoHideTabBar.xcdatamodeld in Sources */,
+				AE7EDA29244D80950051134C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE7EDA38244D809A0051134C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE7EDA41244D809A0051134C /* AutoHideTabBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE7EDA43244D809A0051134C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE7EDA4C244D809A0051134C /* AutoHideTabBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE7EDA3E244D809A0051134C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE7EDA22244D80950051134C /* AutoHideTabBar */;
+			targetProxy = AE7EDA3D244D809A0051134C /* PBXContainerItemProxy */;
+		};
+		AE7EDA49244D809A0051134C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE7EDA22244D80950051134C /* AutoHideTabBar */;
+			targetProxy = AE7EDA48244D809A0051134C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE7EDA2C244D80950051134C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE7EDA2D244D80950051134C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE7EDA34244D809A0051134C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE7EDA35244D809A0051134C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE7EDA4E244D809A0051134C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE7EDA4F244D809A0051134C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE7EDA51244D809A0051134C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65U2DYU8H7;
+				INFOPLIST_FILE = AutoHideTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yusufaisal.AutoHideTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE7EDA52244D809A0051134C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65U2DYU8H7;
+				INFOPLIST_FILE = AutoHideTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yusufaisal.AutoHideTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE7EDA54244D809A0051134C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65U2DYU8H7;
+				INFOPLIST_FILE = AutoHideTabBarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yusufaisal.AutoHideTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoHideTabBar.app/AutoHideTabBar";
+			};
+			name = Debug;
+		};
+		AE7EDA55244D809A0051134C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65U2DYU8H7;
+				INFOPLIST_FILE = AutoHideTabBarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yusufaisal.AutoHideTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoHideTabBar.app/AutoHideTabBar";
+			};
+			name = Release;
+		};
+		AE7EDA57244D809A0051134C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65U2DYU8H7;
+				INFOPLIST_FILE = AutoHideTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yusufaisal.AutoHideTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AutoHideTabBar;
+			};
+			name = Debug;
+		};
+		AE7EDA58244D809A0051134C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65U2DYU8H7;
+				INFOPLIST_FILE = AutoHideTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yusufaisal.AutoHideTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AutoHideTabBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE7EDA1E244D80950051134C /* Build configuration list for PBXProject "AutoHideTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE7EDA4E244D809A0051134C /* Debug */,
+				AE7EDA4F244D809A0051134C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7EDA50244D809A0051134C /* Build configuration list for PBXNativeTarget "AutoHideTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE7EDA51244D809A0051134C /* Debug */,
+				AE7EDA52244D809A0051134C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7EDA53244D809A0051134C /* Build configuration list for PBXNativeTarget "AutoHideTabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE7EDA54244D809A0051134C /* Debug */,
+				AE7EDA55244D809A0051134C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7EDA56244D809A0051134C /* Build configuration list for PBXNativeTarget "AutoHideTabBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE7EDA57244D809A0051134C /* Debug */,
+				AE7EDA58244D809A0051134C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AE7EDA2F244D80950051134C /* AutoHideTabBar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AE7EDA30244D80950051134C /* AutoHideTabBar.xcdatamodel */,
+			);
+			currentVersion = AE7EDA30244D80950051134C /* AutoHideTabBar.xcdatamodel */;
+			path = AutoHideTabBar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AE7EDA1B244D80950051134C /* Project object */;
+}
